@@ -1,0 +1,402 @@
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ede9fd), to(#fff));
+  background-image: linear-gradient(#ede9fd, #fff);
+  font-family: 'Rubik', sans-serif;
+  background-repeat: no-repeat;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #2845ec;
+}
+
+nav .logo {
+  width: 30%;
+}
+
+nav .buttons {
+  width: 60%;
+}
+
+nav img {
+  height: 100px;
+  margin-left: 0;
+}
+
+nav button {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 17px;
+  font-family: 'Rubik', sans-serif;
+  margin: 20px;
+  padding: 10px;
+  color: #3450eb;
+  background-color: transparent;
+  border: 0;
+  font-weight: 500;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul {
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: transparent;
+  list-style: none;
+}
+
+nav .buttons {
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sign-in {
+  -webkit-box-shadow: 0px 1px 2px black;
+          box-shadow: 0px 1px 2px black;
+  color: #fff;
+  width: 120px;
+  border-radius: 50px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3c58f8), to(#0422ce));
+  background-image: linear-gradient(#3c58f8, #0422ce);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.sign-in:focus {
+  -webkit-box-shadow: 0px 0px 5px 0px black inset;
+          box-shadow: 0px 0px 5px 0px black inset;
+}
+
+main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+}
+
+main #first {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #first #first-text {
+  font-weight: 400;
+  color: #1434ee;
+  margin: 20px;
+}
+
+main #first #first-text h1 {
+  font-weight: 450;
+  color: #001fcf;
+}
+
+main #first #first-text strong {
+  font-weight: 450;
+}
+
+main #first #first-text p {
+  width: 400px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 450px) {
+  main #first {
+    display: block;
+  }
+}
+
+#features {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#features div {
+  margin: 20px;
+  -webkit-box-shadow: 0px 1px 2px 0px black;
+          box-shadow: 0px 1px 2px 0px black;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 250px;
+  width: 250px;
+  background-color: white;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#features div:hover {
+  background-color: #0422cd;
+  color: white;
+}
+
+#features div:hover img {
+  -webkit-box-shadow: 0px 0px 0px 0px black;
+          box-shadow: 0px 0px 0px 0px black;
+}
+
+#features div p {
+  background-color: transparent;
+  font-size: 13px;
+}
+
+#features div img {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 3px 0px black;
+          box-shadow: 0px 0px 3px 0px black;
+  margin-top: 20px;
+  height: 80px;
+  padding: 10px;
+}
+
+#delivery {
+  border: 0;
+  padding: 10px;
+  font-family: 'Rubik', sans-serif;
+  -webkit-box-shadow: 0px 1px 2px black;
+          box-shadow: 0px 1px 2px black;
+  color: #fff;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-weight: 700;
+  border-radius: 50px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3c58f8), to(#0422cd));
+  background-image: linear-gradient(#3c58f8, #0422cd);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#delivery:focus {
+  -webkit-box-shadow: 0px 0px 5px 0px black inset;
+          box-shadow: 0px 0px 5px 0px black inset;
+}
+
+.logos {
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.logos img {
+  margin: 10px;
+  display: inline-block;
+  height: 60px;
+}
+
+#dispatch {
+  height: 100px;
+}
+
+#avast {
+  height: 35px;
+}
+
+#search {
+  background-color: transparent;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#search img {
+  height: 500px;
+}
+
+#search #search-text {
+  font-weight: 400;
+  color: #1434ee;
+  margin: 20px;
+}
+
+#search #search-text h1 {
+  margin-top: 120px;
+  font-weight: 450;
+  color: #001fcf;
+}
+
+#search #search-text strong {
+  font-weight: 450;
+}
+
+#search #search-text p {
+  width: 400px;
+  font-size: 15px;
+}
+
+#build {
+  background-color: transparent;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#build img {
+  height: 500px;
+}
+
+#build #build-text {
+  font-weight: 400;
+  color: #1434ee;
+  margin: 20px;
+}
+
+#build #build-text h1 {
+  margin-top: 120px;
+  font-weight: 450;
+  color: #001fcf;
+}
+
+#build #build-text strong {
+  font-weight: 450;
+}
+
+#build #build-text p {
+  width: 400px;
+  font-size: 15px;
+}
+
+#info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#info div {
+  margin: 20px;
+  -webkit-box-shadow: 0px 1px 2px 0px black;
+          box-shadow: 0px 1px 2px 0px black;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  width: 400px;
+}
+
+#info div p {
+  font-weight: 200;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+.footer div {
+  padding-bottom: 20px;
+  background-color: transparent;
+  margin: 20px;
+  height: 100px;
+}
+
+.footer div p {
+  margin: 30px;
+  font-weight: 200;
+  color: #001fcf;
+  width: 160px;
+}
+
+.footer div h4 {
+  margin: 30px;
+}
+
+.footer div img {
+  height: 100px;
+}
+
+.lorem {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
