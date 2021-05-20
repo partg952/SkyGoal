@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(#ede9fd,#fff);
+    background-image: linear-gradient(#ede9fd, #fff);
     // background-color: #ede9fd;
 
     font-family: 'Rubik', sans-serif;
@@ -90,6 +90,7 @@ main {
     background-color: transparent;
 
     #first {
+
         #first-text {
             h1 {
                 font-weight: 450;
@@ -110,12 +111,11 @@ main {
             }
         }
 
-        justify-content: space-between;
+        justify-content: center;
         display: flex;
+        flex-wrap: wrap;
 
-        @media only screen and (max-width: 450px) {
-            display: block;
-        }
+
     }
 }
 
@@ -205,6 +205,9 @@ main {
 
 #search {
     background-color: transparent;
+    justify-content: space-between;
+    display: flex;
+
 
     img {
         height: 500px;
@@ -231,13 +234,14 @@ main {
         }
     }
 
-    justify-content: space-between;
-    display: flex;
+
 }
 
 
 #build {
     background-color: transparent;
+    justify-content: space-between;
+    display: flex;
 
     img {
         height: 500px;
@@ -264,16 +268,16 @@ main {
         }
     }
 
-    justify-content: space-between;
-    display: flex;
+
 }
 
 #info {
+    flex-wrap: wrap;
     display: flex;
     background-color: transparent;
     text-align: center;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 
     div {
         margin: 20px;
@@ -284,15 +288,17 @@ main {
         justify-content: center;
         background-color: white;
         transition: all 0.3s ease-in;
-        width: 400px;
+        width: 270px;
+        height: 150px;
+
         p {
             font-weight: 200;
         }
     }
 }
 
-.footer{
-   
+.footer {
+    flex-wrap: wrap;
     display: flex;
     width: 90%;
     align-items: center;
@@ -301,27 +307,51 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
-    div{
-        padding-bottom:20px     ;
+
+    div {
+
         background-color: transparent;
         margin: 20px;
-        height: 100px;
-        p{
+        height: 150px;
+
+        p {
             margin: 30px;
             font-weight: 200;
             color: #001fcf;
             width: 160px;
-            
+
         }
-        h4{
+
+        h4 {
             margin: 30px;
         }
-        img{
+
+        img {
 
             height: 100px;
         }
     }
 }
-.lorem{
+
+.lorem {
     margin-left: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+
+
+
+    img {
+        height: 300px;
+        width: 300px;
+    }
+
+    nav {
+        display: block;
+
+        ul {
+            display: block;
+        }
+    }
+
 }

@@ -108,12 +108,14 @@ main {
 }
 
 main #first {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 main #first #first-text {
@@ -134,12 +136,6 @@ main #first #first-text strong {
 main #first #first-text p {
   width: 400px;
   font-size: 15px;
-}
-
-@media only screen and (max-width: 450px) {
-  main #first {
-    display: block;
-  }
 }
 
 #features {
@@ -322,6 +318,8 @@ main #first #first-text p {
 }
 
 #info {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -330,9 +328,9 @@ main #first #first-text p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #info div {
@@ -350,7 +348,8 @@ main #first #first-text p {
   background-color: white;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
-  width: 400px;
+  width: 270px;
+  height: 150px;
 }
 
 #info div p {
@@ -358,6 +357,8 @@ main #first #first-text p {
 }
 
 .footer {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -375,10 +376,9 @@ main #first #first-text p {
 }
 
 .footer div {
-  padding-bottom: 20px;
   background-color: transparent;
   margin: 20px;
-  height: 100px;
+  height: 150px;
 }
 
 .footer div p {
@@ -398,5 +398,18 @@ main #first #first-text p {
 
 .lorem {
   margin-left: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  img {
+    height: 300px;
+    width: 300px;
+  }
+  nav {
+    display: block;
+  }
+  nav ul {
+    display: block;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
